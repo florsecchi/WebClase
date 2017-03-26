@@ -1,40 +1,67 @@
 body {
+
 	background-color:#F7D358;
 	font-family:verdana,arial;
-	color:#000000
-	 
+	color:#000000;
+			 
 }
-
 .encabezado {
-	background-color:#F3F781
-
-}
+	display:inline-block;
+	background-color:#F2CB3F;
+	height:125px;
+	width:1000px;
+	
+	}
 
 .encabezado h1{
-	font-size: 28px;
+	display:inline-block;
+	font-size: 40px;
 	text-align:center;
-	font-family: verdana,arial;
+	font-family:impact,arial-black,comic sans;
+	padding-top:20px;
+	padding-left:200px;
+	}
+
+.encabezado img{
+	width:125px;
+	height:125px;
+	margin-right:20px;
+	float:left;
+}
+.contenedorg{
+	margin-bottom:120px;
 }
 
 #menu {
 	float:left;
-	height:600px;
+	width:125px;
+	height:1215px;
+	background-color:#F2CB3F;
+	margin-top:5px;
+	margin-right:-20px;
 }
 
 #menu ul{
-	list-style:none
+	list-style:none;
+	text-align:left;
+	padding-left:5px;
+
+	
 }
 
 #menu a{
 	text-decoration: none;
 	font-family:arial, verdana;
 	color:#000000;
+	font-size:15px;
 	font-weight:bold;
+
 }
 .modulo:{
+	overflow:hidden;
 	width: 200px;
 	height: 200px;
-	
+			
 }
 
 .modulo img{
@@ -45,17 +72,38 @@ body {
 
 .perros{
 	display:inline-block;
-	background-color:#F3F781
-	
-}
+	background-color:#F3F781;
+	vertical-align: top;
+	height: 600px;
+	margin-top:5px;
+	}
 
 .perros h2 {
-	font-size: 20px;
+	font-size: 15px;
 	text-align:center;
 }
 
 .perros p {
-	font-size: 15px;
+	font-size:13px;
 	text-align:center;
+	width:250px;
+
+	}
+#footer{
+	position:fixed;
+	bottom:0;
+	right:0;
+	background-color:#F2CB3F;
+	height:80px;
+	width:1000px;
+	padding-top:30px;
+	margin-top:5px;
 	
 }
+
+#footer h3{
+	
+	text-align:center;
+	font-size:15px;
+}
+
