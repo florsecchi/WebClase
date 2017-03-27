@@ -19,7 +19,7 @@ body {
 	text-align:center;
 	font-family:impact,arial-black,comic sans;
 	padding-top:20px;
-	padding-left:200px;
+	padding-left:240px;
 	}
 
 .encabezado img{
@@ -107,3 +107,31 @@ body {
 	font-size:15px;
 }
 
+.formulario {
+	background-color:#F3F781;
+	margin:5px 10px 10px 270px;
+	height:500px;
+	width:600px;
+	border-width:thin;
+	border-style:double;
+}
+.formulario h1{
+	
+	font-size:15px;
+	
+}
+
+.item{
+	padding:5px;
+	margin:5px;
+}
+
+#presentacion {
+	width:600px;
+	background-color:#F7D358;
+	text-align:center;
+	margin: 10px 10px 10px 240px;
+}
+#presentacion p{
+	font-size:15px;
+}
